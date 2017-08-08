@@ -129,7 +129,7 @@ console.log the response to take a look at what we're getting back.
 
 ```js
 componentDidMount() {
-  fetch(`https://api.weatherbit.io/v1.0/current/postal?postal_code=84044&units=I&key=${KEY}`)
+  fetch(`https://api.weatherbit.io/v1.0/current/postal?country=US&postal_code=84044&units=I&key=${KEY}`)
     .then(res => res.json())
     .then(json => console.log(json))
 }
