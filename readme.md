@@ -195,7 +195,7 @@ API. It abstracts over the iOS and Android specific calls. When using
 `geolocation`, the user will be prompted for location access.
 
 ```js
-navigation.geolocation.getCurrentPosition(
+navigator.geolocation.getCurrentPosition(
   position => console.log(position),
   err => console.error(err),
   {timeout: 2000}
