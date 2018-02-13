@@ -19,6 +19,8 @@ More details can be found at https://facebook.github.io/react-native/
 Display the nearest city name, temperature, description of conditions, and an
 icon representing those conditions.
 
+![Weather App Preview](https://raw.githubusercontent.com/statianzo/rn-mini/master/preview.png)
+
 ## Setup
 
 The API we'll be using to fetch weather information from is
