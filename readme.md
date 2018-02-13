@@ -137,6 +137,8 @@ componentDidMount() {
 
 `units=I` returns imperial metrics instead of metric.
 
+**To prevent rate limiting:** replace `https://api.weatherbit.io` with `https://weatherbitproxy-hbpqeytmef.now.sh`, a cached proxy of weatherbit's API.
+
 ## Getting real
 
 After knowing the shape of the response, it can be used to show real data in
